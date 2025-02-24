@@ -1,0 +1,167 @@
+body {
+    background-color: #13293d;
+    color: white;
+    position: relative;
+    font-family: libre-baskerville;
+    font-size: 24px;
+  }
+  html,
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .hero {
+    background-image: url("https://cdn.pixabay.com/photo/2016/09/30/03/39/pineapple-1704338_1280.jpg");
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .navbar {
+    color: #13293d;
+  }
+  .headshot {
+    height: 200px;
+    width: 150px;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+  }
+  .skills {
+    background-color: #cfe8ef;
+    color: #13293d;
+  }
+  .container.skills {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 100%;
+    padding-bottom: 200px;
+  }
+  .projects {
+    background-color: #006494;
+    margin-top: -200px;
+  }
+  .navbar-nav {
+    margin-right: 80px;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+    background-color: #13293d;
+  }
+  section {
+    padding: 150px 10px 50px 10px;
+  }
+  #home-target,
+  #mission-target,
+  #skills-target,
+  #projects-target {
+    position: relative;
+    top: -100px;
+  }
+  .carousel-item {
+    position: relative;
+  }
+  .projects .overlay {
+    .overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 25%; /* Covers the bottom 1/4 of the image */
+      background-color: rgba(0, 0, 0, 0.5); /* Darkens the background */
+      color: white;
+      padding: 10px; /* Adjust padding if necessary */
+      text-align: center;
+    }
+  }
+  .carousel-item img {
+    height: 50vh;
+    max-width: 80vw;
+    overflow: hidden;
+    object-position: center;
+  }
+  .carousel-inner {
+    width: 80%;
+    padding-left: 20%;
+  }
+  .contact .btn {
+    transition: color 0.3s ease-in-out;
+  }
+  .contact .btn:hover {
+    color: #006494;
+  }
+  footer {
+    background-color: white;
+    color: #13283d;
+    padding: 20px;
+  }
+  
+  h3 {
+    font-family: playfair-display;
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+  .btn {
+    margin: 100px;
+  }
+  h2 {
+    font-family: playfair-display;
+    font-size: 36px;
+    margin-bottom: 75px;
+  }
+  h1 {
+    font-family: playfair-display;
+  }
+  .mission-pic {
+    height: 250px;
+    width: 400px;
+    margin-bottom: 50px;
+  }
+  .bi-house {
+    font-size: 30px;
+    padding-left: 20px;
+  }
+  .caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-size: cover;
+    width: auto;
+  }
+  
+  /* Responsive Layout */
+  @media (min-width: 576px) {
+    .skills .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .skills .col-sm-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .skills .col-md-4 {
+      flex: 0 0 33.333%;
+      max-width: 33.333%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .skills .col-lg-3 {
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+  }
+  
